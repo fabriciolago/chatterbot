@@ -138,7 +138,18 @@ div {
 .linha-vertical {
     height: 500px;/*Altura da linha*/
     border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
-  }
+}
+
+.separador:after {
+    content: "";
+    background-color: #000;
+    position: absolute;
+    width: 1px;
+    height: 700;
+    top: 10px;
+    left: 100%;
+    display: block;
+}
 
 @media only screen and (max-width: 1000px) {
     html {

@@ -33,10 +33,10 @@ app.post('/conversation/', (req, res) => {
     Question.create(response, (error, success) => {
       if (error)
         console.log("Erro: " + error);
-      else
-        console.log("Sucesso: " + success);
+      //else
+        //console.log("Sucesso: " + success);
     });
-
+    
     res.json(response);
   });
 });
