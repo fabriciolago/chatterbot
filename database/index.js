@@ -1,6 +1,6 @@
 var mongoose = require("mongoose");
-
-mongoose.connect('mongodb://localhost/watson');
+var contexto = require("./../config/context");
+mongoose.connect(contexto.mongo);
 mongoose.Promise = global.Promise;
 
 module.exports = mongoose;

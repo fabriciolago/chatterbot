@@ -1,5 +1,7 @@
 const textInput = document.getElementById('textInput');
 const chat = document.getElementById('chat');
+const watson = document.getElementById('watson');
+// const mongo = document.getElementById('mongo');
 
 let context = {};
 let teste = "separador"
@@ -35,6 +37,7 @@ const getWatsonMessageAndInsertTemplate = async (text = '') => {
   context = response.context;
   console.log(response);
   const template = templateChatMessage(response.output.text, 'watson');
+  watson.value += JSON.stringify(response, undefined, 4);;
 
   InsertTemplateInTheChat(template);
 };

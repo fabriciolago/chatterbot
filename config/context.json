@@ -1,4 +1,5 @@
 {
+    "url": "http://localhost:3000/conversation/",
     "mongo":"mongodb://localhost/watson",
     "watson":{
         "workspace_id":"6fa21cad-09c7-4910-b34d-d02275796785",
