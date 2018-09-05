@@ -135,6 +135,11 @@ div {
     margin-right: 0.5rem;
 }
 
+.linha-vertical {
+    height: 500px;/*Altura da linha*/
+    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+  }
+
 @media only screen and (max-width: 1000px) {
     html {
         font-size: 15px;

@@ -1,20 +1,37 @@
 <html>
 
 <head>
-  <title>Watson Sample Chatbot</title>
+  <title>Chatbot com IBM Satson</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+  <!-- <link rel="shortcut icon" href="./favicon.png" type="image/x-icon"> -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-  <div class="chat-column">
-    <div id="chat"></div>
-    <label for="textInput" class="inputOutline">
-      <input id="textInput" class="input responsive-column" autofocus placeholder="Say something" type="text">
-    </label>
+  <div class="row">
+    <div class="col-md-3 border-right text-center">
+      <h3>Respostas Watson</h3>
+      <div class="float-right linha-vertical"></div>
+    </div>
+    <div class="col-md-4">
+      <h3 class="text-center">Chatbot</h3>
+      <div class="chat-column">
+          <div id="chat"></div>
+          <label for="textInput" class="inputOutline">
+            <input id="textInput" class="input responsive-column" autofocus placeholder="Pergunte algo..." type="text">
+          </label>
+        </div>
+    </div>
+    <div class="col-md-4 text-center">
+        <h3>Registros salvos</h3>
+    </div>
   </div>
+ 
   <script src="./script.js"></script>
 </body>
 

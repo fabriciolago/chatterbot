@@ -1,0 +1,10 @@
+{
+    "mongo":"mongodb://localhost/watson",
+    "watson":{
+        "workspace_id":"6fa21cad-09c7-4910-b34d-d02275796785",
+        "username":"b4d74b7f-8e70-494d-8658-bac48fb91f82",
+        "password":"yB4JXPOAvIP7",
+        "url":"https://gateway.watsonplatform.net/assistant/api/",
+        "version":"2018-02-16"
+    }
+}
